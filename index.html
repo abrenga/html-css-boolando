@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Bolando</title>
 </head>
 
@@ -22,24 +24,15 @@
                 <figure class="logo">
                     <img src="./img/boolean-logo.png" alt="">
                 </figure>
-                <div class="container_svg">
-                    <section class="row_svg">
-
-                        <div class="items_svg"><svg>
-                                <path
-                                    d="M21.645 22.866a28.717 28.717 0 0 0-6.46-7.817c-2.322-1.892-4.048-1.892-6.37 0a28.74 28.74 0 0 0-6.46 7.817.75.75 0 0 0 1.294.76 27.264 27.264 0 0 1 6.113-7.413A3.98 3.98 0 0 1 12 15.125a3.81 3.81 0 0 1 2.236 1.088 27.252 27.252 0 0 1 6.115 7.412.75.75 0 1 0 1.294-.76zM12 12.002A6.01 6.01 0 0 0 18.003 6 6.003 6.003 0 1 0 12 12.002zm0-10.505a4.502 4.502 0 1 1 0 9.005 4.502 4.502 0 0 1 0-9.005z">
-                                </path>
-                            </svg></div>
-                        <div><svg class="items_svg">
-                                <path
-                                    d="M21.193 8.712a2.984 2.984 0 0 0-2.986-2.726h-.952v-.751a5.255 5.255 0 0 0-10.51 0v.75h-.951a2.983 2.983 0 0 0-2.986 2.727L1.715 20.73A2.999 2.999 0 0 0 4.7 24h.005l14.599-.027a2.998 2.998 0 0 0 2.98-3.27L21.193 8.712zM8.246 5.235a3.754 3.754 0 0 1 7.508 0v.75H8.246v-.75zm11.056 17.238-14.599.025h-.002a1.496 1.496 0 0 1-1.49-1.631l1.093-12.02a1.488 1.488 0 0 1 1.49-1.36h.95V9.74a.75.75 0 0 0 1.502 0V7.487h7.508V9.74c0 .415.336.75.75.75h.002a.75.75 0 0 0 .75-.75V7.487h.951a1.49 1.49 0 0 1 1.49 1.361l1.092 11.993a1.496 1.496 0 0 1-1.488 1.632z">
-                                </path>
-                            </svg></div>
-                        <div><svg class="items_svg">
-                                <path
-                                    d="M17.488 1.11h-.146a6.552 6.552 0 0 0-5.35 2.81A6.57 6.57 0 0 0 6.62 1.116 6.406 6.406 0 0 0 .09 7.428c0 7.672 11.028 15.028 11.497 15.338a.745.745 0 0 0 .826 0c.47-.31 11.496-7.666 11.496-15.351a6.432 6.432 0 0 0-6.42-6.306zM12 21.228C10.018 19.83 1.59 13.525 1.59 7.442c.05-2.68 2.246-4.826 4.934-4.826h.088c2.058-.005 3.93 1.251 4.684 3.155.226.572 1.168.572 1.394 0 .755-1.907 2.677-3.17 4.69-3.16h.02c2.7-.069 4.96 2.118 5.01 4.817 0 6.089-8.429 12.401-10.41 13.8z">
-                                </path>
-                            </svg></div>
+                <div class="container_icon">
+                    <section class="row_icon">
+                        <div class="items_icon">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <div class="items_icon"><i class="fa-solid fa-bag-shopping"></i></div>
+                        <div class="items_icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
                     </section>
                 </div>
             </nav>
@@ -56,49 +49,97 @@
                 <div class=" col-4">
                     <section class="row_card">
                         <img class="imgCard" src="./img/1.webp" alt="">
-                        <p>Levi's</p>
-                        <p>Related fit tee Unisex</p>
-                        <p>14,99</p>
+                        <div class="card_info">
+                            <p class="item_info">Levi's</p>
+                            <p class="item_info">RELATE FIT TEE UNISEX</p>
+                            <ul class="container_ item_info">
+                                <li class="row_">
+                                    <p class="redT">14,99 &euro;</p>
+                                </li>
+                                <li class="row_">
+                                    <p><strike>29,99</strike></p>
+                                </li>
+                            </ul>
+                        </div>
                     </section>
                 </div>
                 <div class="items_card col-4">
                     <section class="row_card">
                         <img class="imgCard" src="./img/2.webp" alt="">
-                        <p>GUESS</p>
-                        <p>Related fit tee Unisex</p>
-                        <p>14,99</p>
+                        <div class="card_info">
+                            <p class="item_info">Guess</p>
+                            <p class="item_info">ROSES TEE</p>
+                            <ul class="container_ item_info">
+                                <li class="row_">
+                                    <p class="redT">20,99 &euro;</p>
+                                </li>
+                                <li class="row_">
+                                    <p><strike>29,99</strike></p>
+                                </li>
+                            </ul>
+                        </div>
                     </section>
                 </div>
                 <div class="items_card col-4">
                     <section class="row_card">
                         <img class="imgCard" src="./img/3.webp" alt="">
-                        <p>GUESS</p>
-                        <p>Related fit tee Unisex</p>
-                        <p>14,99</p>
+                        <div class="card_info">
+                            <p class="item_info">Come zucchero filato</p>
+                            <p class="item_info">VOGLIA DI COLORI PASTELLOx</p>
+                            <ul class="container_ item_info">
+                                <li class="row_">
+                                    <p class="redT">129,99 &euro;</p>
+                                </li>
+                                <li class="row_">
+                                    <p><strike>184,00</strike></p>
+                                </li>
+                            </ul>
+                        </div>
                     </section>
                 </div>
                 <div class="items_card col-4">
                     <section class="row_card">
                         <img class="imgCard" src="./img/4.webp" alt="">
-                        <p>GUESS</p>
-                        <p>Related fit tee Unisex</p>
-                        <p>14,99</p>
+                        <div class="card_info">
+                            <p class="item_info">Levi's</p>
+                            <p class="item_info">TEE UNISEX</p>
+                            <ul class="container_ item_info">
+                                <li class="row_">
+                                    <p class="redT">14,99 &euro;</p>
+                                </li>
+                                <li class="row_">
+                                    <p><strike>29,99</strike></p>
+                                </li>
+                            </ul>
+                        </div>
                     </section>
                 </div>
                 <div class="items_card col-4">
                     <section class="row_card">
                         <img class="imgCard" src="./img/5.webp" alt="">
-                        <p>Come zucchero filato</p>
-                        <p>Related fit tee Unisex</p>
-                        <p>14,99</p>
+                        <div class="card_info">
+                            <p class="item_info">Maya Deluxe</p>
+                            <p class="item_info">ROSES S TEE</p>
+                            <ul class="container_ item_info">
+                                <li class="row_">
+                                    <p class="redT">99,99 &euro;</p>
+                                </li>
+                            </ul>
+                        </div>
                     </section>
                 </div>
                 <div class="items_card col-4">
                     <section class="row_card">
                         <img class="imgCard" src="./img/6.webp" alt="">
-                        <p>GUESS</p>
-                        <p>Related fit tee Unisex</p>
-                        <p>14,99</p>
+                        <div class="card_info">
+                            <p class="item_info">Espirit</p>
+                            <p class="item_info">Maglione-BLACK</p>
+                            <ul class="container_ item_info">
+                                <li class="row_">
+                                    <p class="redT">29,99 &euro;</p>
+                                </li>
+                            </ul>
+                        </div>
                     </section>
                 </div>
 
@@ -118,11 +159,11 @@
                 <section class="row_footer text_footer">
                     <h5>Trovaci anche su </h5>
                     <ul class="row_social_box">
-                        <li class="items_l"><a href="#" class="fa fa-facebook"></a></li>
-                        <li class="items_l"><a href="#" class="fa fa-instagram"></a></li>
-                        <li class="items_l"><a href="#" class="fa fa-twitter"></a></li>
-                        <li class="items_l"><a href="#" class="fa fa-pinterest"></a></li>
-                        <li class="items_l"><a href="#" class="fa fa-youtube"></a></li>
+                        <li class="items_l"><a href="#"></a><i class="fa-brands fa-facebook-f"></i></li>
+                        <li class="items_l"><i class="fa-brands fa-square-instagram"></i></li>
+                        <li class="items_l"><i class="fa-brands fa-pinterest"></i></li>
+                        <li class="items_l"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="items_l"><i class="fa-brands fa-youtube"></i></li>
                     </ul>
                 </section>
             </div>
